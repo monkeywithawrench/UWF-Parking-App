@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Lot F</name>
+    <Style id="poly-097138-1-77-nodesc-normal">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-097138-1-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d387109</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-097138-1-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-097138-1-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-097138-1-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Lot F</name>
+      <styleUrl>#poly-097138-1-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -87.2223634,30.5494604,0
+              -87.2226343,30.5493657,0
+              -87.2229534,30.54913,0
+              -87.2230527,30.5489453,0
+              -87.2230339,30.5488044,0
+              -87.2229427,30.5487073,0
+              -87.2227764,30.5487004,0
+              -87.2226289,30.5487443,0
+              -87.2224116,30.5489152,0
+              -87.2223231,30.5490515,0
+              -87.2222346,30.5491693,0
+              -87.2222319,30.5492686,0
+              -87.2222641,30.5494142,0
+              -87.2223634,30.5494604,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

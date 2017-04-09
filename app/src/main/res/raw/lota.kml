@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Lot A</name>
+    <Style id="poly-FF5252-1-77-nodesc-normal">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d5252ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FF5252-1-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff5252ff</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d5252ff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FF5252-1-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FF5252-1-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FF5252-1-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Lot A</name>
+      <styleUrl>#poly-FF5252-1-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -87.2206333,30.5449398,0
+              -87.2207594,30.5446626,0
+              -87.2207272,30.5445933,0
+              -87.2206199,30.5445633,0
+              -87.2202846,30.5446487,0
+              -87.2202551,30.5445194,0
+              -87.2201559,30.5445448,0
+              -87.2200647,30.5446441,0
+              -87.2197643,30.5446072,0
+              -87.2197402,30.5444847,0
+              -87.2192198,30.5443577,0
+              -87.2192198,30.5444339,0
+              -87.2192466,30.544621,0
+              -87.2192949,30.5447157,0
+              -87.219319,30.5448382,0
+              -87.21926,30.5448959,0
+              -87.2192627,30.545053,0
+              -87.2193298,30.5452516,0
+              -87.2196302,30.5453741,0
+              -87.2198904,30.5455912,0
+              -87.2201237,30.5456605,0
+              -87.2203249,30.5456836,0
+              -87.2203624,30.5456328,0
+              -87.2206333,30.5449398,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

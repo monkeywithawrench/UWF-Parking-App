@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Lot G</name>
+    <Style id="poly-FFEA00-1-77-nodesc-normal">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d00eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-FFEA00-1-77-nodesc-highlight">
+      <LineStyle>
+        <color>ff00eaff</color>
+        <width>2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d00eaff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="poly-FFEA00-1-77-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFEA00-1-77-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFEA00-1-77-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Lot G</name>
+      <styleUrl>#poly-FFEA00-1-77-nodesc</styleUrl>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <tessellate>1</tessellate>
+            <coordinates>
+              -87.2225484,30.5499593,0
+              -87.2219825,30.5491924,0
+              -87.2217679,30.5492617,0
+              -87.2212958,30.5495389,0
+              -87.2212797,30.549756,0
+              -87.2211403,30.5498992,0
+              -87.2209471,30.5502319,0
+              -87.2210115,30.5505091,0
+              -87.2211403,30.5506523,0
+              -87.2216499,30.5508278,0
+              -87.2218698,30.5507077,0
+              -87.222181,30.5502688,0
+              -87.2225484,30.5499593,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
